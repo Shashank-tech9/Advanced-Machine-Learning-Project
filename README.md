@@ -5,6 +5,7 @@ In this project we aim to classify spam messages from 2 datasets of emails, usin
 2) Muli level perceptron 
 3) Support Vector Machine and 
 4) Relevance Vector Machine
+'''
 import numpy as np
 #from decision_tree import calculate_information_gain
 #from decision_tree import decision_tree_train
@@ -24,3 +25,4 @@ from skrvm import RVC
 from sklearn.datasets import load_iris
 import matplotlib.pyplot as plt
 import copy
+'''
