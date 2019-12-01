@@ -38,6 +38,7 @@ from sklearn.datasets import load_iris
 import matplotlib.pyplot as plt
 import copy
 ```
+
 We test 6 values of feature size for the 4 algorithms
 ```
 feature_size = [25, 50, 75, 100, 125, 150]
@@ -63,6 +64,7 @@ y = [None] * len(feature_size)
 for i in range(len(feature_size)):
     X[i], y[i] = load_all_data(feature_size[i])
 ```
+
 Accuracy Test for Naive-Bayes
 ```
 nb_params = { 'alpha': 1.0 }
@@ -88,6 +90,7 @@ for i in range(len(feature_size)):
     nb_test_accuracy1[i] = nb_test_accuracy
     nb_train_accuracy1[i] = nb_train_accuracy
 ```
+
 Accuracy test for Multi level Perceptron
 ```
 num_folds = 4
@@ -138,7 +141,8 @@ for i in range(len(feature_size)):
     mlp_test_accuracy1[i] = test_accuracy
     mlp_train_accuracy1[i] = train_accuracy
  ```
- Accuracy test for Support Vector Machine
+
+Accuracy test for Support Vector Machine
  ```
  num_folds = 4
 c_vals = 10 ** np.linspace(-1, 3, 4)
@@ -193,6 +197,7 @@ for i in range(len(feature_size)):
     svm_test_accuracy1[i] = test_accuracy
     svm_train_accuracy1[i] = train_accuracy
 ```
+
 Accuracy Test for RVM
 ```
 for i in range(len(feature_size)):
