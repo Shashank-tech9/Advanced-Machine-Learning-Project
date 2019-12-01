@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 import copy
 ```
 
-We test 6 values of feature size for the 4 algorithms
+We test each of the 4 algorithms for 6 values of feature size 
 ```
 feature_size = [25, 50, 75, 100, 125, 150]
 #feature_size = [25]
