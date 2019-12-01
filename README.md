@@ -7,10 +7,13 @@ In this project we aim to classify spam messages from 2 datasets of emails, usin
 4) Relevance Vector Machine
 # Databases 
 The fopllowing the are the databases which we used :
-data_email
+
+*data_email
+
 The following the are the libraries we used:
-Sklearn
-quadprog
+
+*Sklearn
+*quadprog
 # Jupyter Notebook code
 ```
 import numpy as np
