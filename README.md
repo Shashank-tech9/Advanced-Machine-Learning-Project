@@ -11,7 +11,7 @@ The fopllowing the are the databases which we used :
 
 data_email
 
-The following the are the libraries we used:
+We have used the following libraries:
 
 Sklearn
 
